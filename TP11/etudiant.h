@@ -10,10 +10,10 @@ public:
     etudiant(std::string lenom,
         std::string leprenom,
         int annee,
-        char* classe,
-        float* Moyenne,
+        const char* classe, // Correction ici : const char* au lieu de char*
+        const float* Moyenne, // Correction ici : const float* au lieu de float*
         std::string commentaires);
     ~etudiant();
     void affiche();
 };
-
+    

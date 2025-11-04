@@ -3,6 +3,7 @@
 #include <vector>
 
 class personne {
+protected:
 	std::string nom;
 	std::string prenom;
 	int annee;
