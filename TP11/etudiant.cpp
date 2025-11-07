@@ -20,7 +20,8 @@ void etudiant::affiche()
 	std::cout << "Classe : " << this->classe << std::endl;
 	for (int i = 0; i < 3; i++)
 	{
-		std::cout << " moy " << i + 1 << " : " << this->moyenne[i];
+		std::cout << "moy " << i + 1 << " : " << this->moyenne[i];
+		std::cout << " ";
 	}
-	std::cout << "\n Commentaire : " << this->commentaires<<std::endl;
+	std::cout << "\nCommentaire : " << this->commentaires<<std::endl;
 }

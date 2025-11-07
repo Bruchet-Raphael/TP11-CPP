@@ -16,5 +16,6 @@ personne::~personne()
 
 void personne::affiche()
 {
+	std::cout << "--------" << std::endl;
 	std::cout << "Le nom : " << this->nom << "\nLe prenom : " << this->prenom << "\nl'annee : " << this->annee<<std::endl;
 }

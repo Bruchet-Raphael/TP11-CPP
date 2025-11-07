@@ -3,6 +3,7 @@
 
 class etudiant : public personne
 {
+private:
     char classe[5];
     float moyenne[3];
     std::string commentaires;
